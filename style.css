@@ -1,0 +1,62 @@
+/* Set type preferences for header. */
+
+h2 {
+  font-family: 'Gotham', 'Montserrat', sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Set display preferences for description. */
+
+#description {
+  margin: 10px 5% 0% 5%;
+  font-family: 'Gotham', 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.45em;
+}
+
+/* Set display preferences for dropdown menu. */
+
+#dropdown {
+  margin-top: 10px;
+  text-align: center;
+}
+
+select { 
+  height: 25px;
+  width: 150px;
+  font-family: 'Gotham', 'Montserrat', sans-serif;
+  text-align-last: center;
+}
+
+/* Set display preferences for map. */
+
+#map {
+  height: 85%;
+}
+
+/* Hide 'Google Maps API's Terms of Use'. */
+
+.gmnoprint a,
+.gmnoprint span,
+.gmnoprint.gm-style-cc,
+.gm-style-cc {
+  display: none !important;
+}
+
+/* Set background color of zoom buttons. */
+
+.gmnoprint div {
+  background: #EEEEEE !important;
+}
+
+/* Make the test results fill the window. */
+
+html,
+body {
+  height: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  background-color: #F1F2F2;
+}
